@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from lib.conftest import driver
+from conftest import driver
 
 
 def test_login_litecart(driver):

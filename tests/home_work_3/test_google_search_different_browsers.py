@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from lib.conftest import driver_fx, driver_eg
+from conftest import driver_fx, driver_eg
 
 
 GOOGLE = 'https://www.google.com/'
